@@ -1,0 +1,19 @@
+# To learn more about .editorconfig see https://aka.ms/editorconfigdocs
+root = true
+
+# All files
+[*]
+indent_style = space
+
+# Xml files
+[*.xml]
+indent_size = 2
+
+# This file is the top-most EditorConfig file
+
+[*.{asp,aspx,cshtml,js,ts,html,css,scss}]
+charset = utf-8
+indent_style = space
+indent_size = 3
+insert_final_newline = true
+trim_trailing_whitespace = true
