@@ -1,4 +1,19 @@
-$primary: #444540;
-$secondary: #c91612;
+// DEFAULT WEB FONTS
+$font-rokkit: 'Rokkit', Times, serif;
+$font-open-sans: 'Open Sans', Helvetica, Arial, sans-serif;
 
-$footer-background: $primary;
+// COLOR FROM ASSETS PANEL
+$primary: #444540;
+$primary_light: #707070;
+$primary_dark: #404041;
+
+$secondary: #c91612;
+$secondary_light: #f94143;
+$secondary_dark: #872a2a;
+
+$color_border: #d3d3d5;
+$color_white: #fff;
+$title_shadow: rgba(255, 255, 255, 0.93);
+
+$color_owner_name: rgba(23, 23, 23, 0.93);
+$font_placeholder: #a4a4a4;

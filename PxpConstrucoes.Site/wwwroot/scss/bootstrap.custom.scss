@@ -4,7 +4,7 @@
 @import "../lib/bootstrap/scss/bootstrap";
 
 // Import custom variables (overrides Bootstrap default variables)
-@import "_variables.scss";
-@import "_navbar.scss";
-@import "_footer.scss";
-@import "_form.scss";
+@import "variables";
+@import "header";
+@import "footer";
+@import "form";
