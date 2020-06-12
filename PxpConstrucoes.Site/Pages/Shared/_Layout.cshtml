@@ -4,8 +4,12 @@
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <title>@ViewData["Title"] - PXP Construções</title>
-   <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-   <link rel="stylesheet" href="~/css/bootstrap.custom.css" />
+   <environment include="Development">
+      <link rel="stylesheet" href="~/css/bootstrap.custom.css" />
+   </environment>
+   <environment exclude="Development">
+      <link rel="stylesheet" href="~/css/bootstrap.custom.min.css" />
+   </environment>
 </head>
 <body>
    <header>
@@ -49,13 +53,23 @@
 
    <footer class="border-top footer text-muted">
       <div class="container">
-         &copy; 2020 - PxpConstrucoes.Site - <a asp-area="" asp-page="/Privacy">Privacy</a>
+         &copy; 2020 - PxpConstrucoes S/A - <a asp-area="" asp-page="/Privacy">Todos os direitos reservados</a>.
+      </div>
+      <div class="container">
+         &copy; 2020 - Desenvolvido por Mandrillus.
       </div>
    </footer>
 
-   <script src="~/lib/jquery/dist/jquery.min.js"></script>
-   <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-   <script src="~/js/site.js" asp-append-version="true"></script>
+   <environment include="Development">
+      <script src="~/lib/jquery/dist/jquery.js"></script>
+      <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+      <script src="~/js/site.js" asp-append-version="true"></script>
+   </environment>
+   <environment exclude="Development">
+      <script src="~/lib/jquery/dist/jquery.min.js"></script>
+      <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="~/js/site.min.js" asp-append-version="true"></script>
+   </environment>
 
    @RenderSection("Scripts", required: false)
 </body>

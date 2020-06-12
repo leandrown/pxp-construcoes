@@ -1,0 +1,10 @@
+// Manual compilation via terminal: sass --watch scss/:css/
+
+// Import custom SCSS from Bootstrap
+@import "../lib/bootstrap/scss/bootstrap";
+
+// Import custom variables (overrides Bootstrap default variables)
+@import "_variables.scss";
+@import "_navbar.scss";
+@import "_footer.scss";
+@import "_form.scss";
