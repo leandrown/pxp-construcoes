@@ -1,4 +1,84 @@
 /// <reference path="_variables.scss" />
-nav.navbar {
-   background-color: $primary;
+header {
+   #mainNav {
+      background-color: $primary;
+      font-family: $font-rokkit;
+      font-size: 20px;
+      font-weight: 700;
+      transition: all 0.4s;
+
+      .navbar-brand {
+         img {
+            width: 130px;
+         }
+      }
+
+      button {
+         border: 0;
+      }
+
+      li {
+         .nav-link {
+            color: $color_border;
+         }
+
+         .nav-link:hover {
+            color: $secondary;
+            text-decoration: none;
+         }
+      }
+   }
+}
+// HEADER RESPONSIVE STYLES
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+   header {
+      #mainNav {
+         li {
+            border-bottom: 1px solid $color_border;
+         }
+
+         .navbar-collapse {
+            position: absolute;
+            background-color: $primary;
+            top: 3.6em;
+            right: 0;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 15px;
+            width: 70%;
+            height: 100vh;
+         }
+
+         .navbar-collapse.collapsing {
+            height: 100vh;
+            -webkit-transition: right 0.5s ease;
+            -o-transition: right 0.5s ease;
+            -moz-transition: right 0.5s ease;
+            transition: right 0.5s ease;
+            right: -70%;
+         }
+
+         .navbar-collapse.show {
+            right: 0;
+            background-color: $primary;
+            -webkit-transition: right 0.5s ease-in;
+            -o-transition: right 0.5s ease-in;
+            -moz-transition: right 0.5s ease-in;
+            transition: right 0.5s ease-in;
+            border-top: #fff;
+            border-top-color: #fff;
+            box-shadow: -5px 0 6px rgba(0, 0, 0, 0.4);
+         }
+      }
+   }
+
+}
+
+@media (max-width: 576px) {
 }

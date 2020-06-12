@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
    <meta charset="utf-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
    <title>@ViewData["Title"] - PXP Construções</title>
    <link  rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Rokkitt:wght@300;400;600;700&display=swap" />
    <environment include="Development">
@@ -14,32 +14,33 @@
 </head>
 <body>
    <header>
-      <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+      <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light fixed-top border-bottom box-shadow mb-3" id="mainNav" role="navigation">
          <div class="container">
-            <a class="navbar-brand" asp-area="" asp-page="/Index">PxpConstrucoes Logo</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" asp-area="" asp-page="/">
+               <img src="~/img/pxp_logo.png" alt="PXP Construções Logo" />
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-               <ul class="navbar-nav flex-grow-1">
+               <ul class="navbar-nav text-center text-lg-right">
                   <li class="nav-item">
-                     <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                     <a class="nav-link" asp-area="" asp-page="/">Home</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link text-dark" asp-area="" asp-page="/AboutUs">Quem Somos</a>
+                     <a class="nav-link" asp-area="" asp-page="/AboutUs">Quem Somos</a>
+                  </li>
+                  <li class="nav-item text-sm-center">
+                     <a class="nav-link" asp-area="" asp-page="/Services">Serviços</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link text-dark" asp-area="" asp-page="/Services">Serviços</a>
+                     <a class="nav-link" asp-area="" asp-page="/Clients">Clientes</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link text-dark" asp-area="" asp-page="/Clients">Clientes</a>
+                     <a class="nav-link" asp-area="" asp-page="/Gallery">Galeria</a>
                   </li>
                   <li class="nav-item">
-                     <a class="nav-link text-dark" asp-area="" asp-page="/Gallery">Galeria</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link text-dark" asp-area="" asp-page="/Contact">Contato</a>
+                     <a class="nav-link" asp-area="" asp-page="/Contact">Contato</a>
                   </li>
                </ul>
             </div>

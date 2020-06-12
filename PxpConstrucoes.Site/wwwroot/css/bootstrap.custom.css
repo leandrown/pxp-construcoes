@@ -7200,8 +7200,59 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-nav.navbar {
-  background-color: #444540; }
+html, body {
+  margin: 0;
+  overflow: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility; }
+
+header #mainNav {
+  background-color: #444540;
+  font-family: "Rokkitt", Times, serif;
+  font-size: 20px;
+  font-weight: 700;
+  transition: all 0.4s; }
+  header #mainNav .navbar-brand img {
+    width: 130px; }
+  header #mainNav button {
+    border: 0; }
+  header #mainNav li .nav-link {
+    color: #d3d3d5; }
+  header #mainNav li .nav-link:hover {
+    color: #c91612;
+    text-decoration: none; }
+
+@media (max-width: 768px) {
+  header #mainNav li {
+    border-bottom: 1px solid #d3d3d5; }
+  header #mainNav .navbar-collapse {
+    position: absolute;
+    background-color: #444540;
+    top: 3.6em;
+    right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 70%;
+    height: 100vh; }
+  header #mainNav .navbar-collapse.collapsing {
+    height: 100vh;
+    -webkit-transition: right 0.5s ease;
+    -o-transition: right 0.5s ease;
+    -moz-transition: right 0.5s ease;
+    transition: right 0.5s ease;
+    right: -70%; }
+  header #mainNav .navbar-collapse.show {
+    right: 0;
+    background-color: #444540;
+    -webkit-transition: right 0.5s ease-in;
+    -o-transition: right 0.5s ease-in;
+    -moz-transition: right 0.5s ease-in;
+    transition: right 0.5s ease-in;
+    border-top: #fff;
+    border-top-color: #fff;
+    box-shadow: -5px 0 6px rgba(0, 0, 0, 0.4); } }
 
 footer {
-  background-color: #c91612; }
+  background-color: #444540; }
