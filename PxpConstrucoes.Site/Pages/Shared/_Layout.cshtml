@@ -4,17 +4,20 @@
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
    <title>@ViewData["Title"] - PXP Construções</title>
-   <link  rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Rokkitt:wght@300;400;600;700&display=swap" />
+   <!-- Web Fonts -->
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Rokkitt:wght@300;400;600;700&display=swap" />
    <environment include="Development">
       <link rel="stylesheet" href="~/css/bootstrap.custom.css" />
    </environment>
    <environment exclude="Development">
       <link rel="stylesheet" href="~/css/bootstrap.custom.min.css" />
    </environment>
+   <!-- Font Awesome -->
+   <script src="https://kit.fontawesome.com/af40653a1b.js" crossorigin="anonymous"></script>
 </head>
 <body>
    <header>
-      <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light fixed-top border-bottom box-shadow mb-3" id="mainNav" role="navigation">
+      <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark fixed-top border-bottom box-shadow mb-3" id="mainNav" role="navigation">
          <div class="container">
             <a class="navbar-brand" asp-area="" asp-page="/">
                <img src="~/img/pxp_logo.png" alt="PXP Construções Logo" />
@@ -22,27 +25,34 @@
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-               <ul class="navbar-nav text-center text-lg-right">
-                  <li class="nav-item">
+            <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse px-4">
+               <ul class="navbar-nav text-center text-lg-right mt-5 mb-3">
+                  <li class="nav-item py-2">
                      <a class="nav-link" asp-area="" asp-page="/">Home</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item py-2">
                      <a class="nav-link" asp-area="" asp-page="/AboutUs">Quem Somos</a>
                   </li>
-                  <li class="nav-item text-sm-center">
+                  <li class="nav-item py-2">
                      <a class="nav-link" asp-area="" asp-page="/Services">Serviços</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item py-2">
                      <a class="nav-link" asp-area="" asp-page="/Clients">Clientes</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item py-2">
                      <a class="nav-link" asp-area="" asp-page="/Gallery">Galeria</a>
                   </li>
-                  <li class="nav-item">
+                  <li class="nav-item py-2">
                      <a class="nav-link" asp-area="" asp-page="/Contact">Contato</a>
                   </li>
                </ul>
+               <div class="row h-25 d-lg-none d-flex px-3">
+                  <div class="col-sm-12 text-center align-self-center pt-4 social-media-menu">
+                     <a href="#" class="h2 px-2"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+                     <a href="#" class="h2 px-2"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                     <a href="#" class="h2 px-2"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                  </div>
+               </div>
             </div>
          </div>
       </nav>

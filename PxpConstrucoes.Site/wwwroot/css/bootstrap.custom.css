@@ -7222,10 +7222,16 @@ header #mainNav {
   header #mainNav li .nav-link:hover {
     color: #c91612;
     text-decoration: none; }
+  header #mainNav a i {
+    color: #d3d3d5; }
 
 @media (max-width: 768px) {
+  header #mainNav .social-media-menu {
+    border-top: 1px solid #d3d3d5; }
   header #mainNav li {
     border-bottom: 1px solid #d3d3d5; }
+  header #mainNav li:last-child {
+    border-bottom: none; }
   header #mainNav .navbar-collapse {
     position: absolute;
     background-color: #444540;
@@ -7234,7 +7240,7 @@ header #mainNav {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
-    width: 70%;
+    width: 60%;
     height: 100vh; }
   header #mainNav .navbar-collapse.collapsing {
     height: 100vh;
@@ -7242,7 +7248,7 @@ header #mainNav {
     -o-transition: right 0.5s ease;
     -moz-transition: right 0.5s ease;
     transition: right 0.5s ease;
-    right: -70%; }
+    right: -60%; }
   header #mainNav .navbar-collapse.show {
     right: 0;
     background-color: #444540;
