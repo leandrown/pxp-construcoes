@@ -1,3 +1,29 @@
+/// <reference path="_variables.scss" />
+main {
+   #banner {
+      background-image: url('../img/architecture-3121009_1920.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: contain;
+
+      h1, p {
+         color: #fff;
+         font-family: $font-rokkit;
+         text-shadow: 4px 6px 6px rgba(0, 0, 0, 0.8);
+      }
+
+      h1 {
+         font-size: 32px;
+         font-weight: 400;
+      }
+
+      p {
+         font-size: 16px;
+         font-weight: 600;
+      }
+   }
+}
 
 // HOME RESPONSIVE STYLES
 @media (max-width: 1200px) {

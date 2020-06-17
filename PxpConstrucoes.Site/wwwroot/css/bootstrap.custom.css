@@ -7311,3 +7311,20 @@ footer {
     cursor: pointer;
     color: #f94143;
     text-decoration: none; }
+
+main #banner {
+  background-image: url("../img/architecture-3121009_1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: contain; }
+  main #banner h1, main #banner p {
+    color: #fff;
+    font-family: "Rokkitt", Times, serif;
+    text-shadow: 4px 6px 6px rgba(0, 0, 0, 0.8); }
+  main #banner h1 {
+    font-size: 32px;
+    font-weight: 400; }
+  main #banner p {
+    font-size: 16px;
+    font-weight: 600; }
