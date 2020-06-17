@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Copyright>2020 Mandrillus Team</Copyright>
+    <Description>Site Oficial da PXP Construções</Description>
   </PropertyGroup>
 
   <ItemGroup>

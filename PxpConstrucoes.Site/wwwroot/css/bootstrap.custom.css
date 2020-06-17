@@ -7202,7 +7202,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 html, body {
   margin: 0;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility; }
