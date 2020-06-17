@@ -7225,7 +7225,12 @@ header #mainNav {
     color: #c91612;
     text-decoration: none; }
   header #mainNav a i {
+    cursor: pointer;
     color: #d3d3d5; }
+  header #mainNav a:hover icon {
+    cursor: pointer;
+    color: #f94143;
+    text-decoration: none; }
 
 @media (max-width: 768px) {
   header #mainNav .social-media-menu {
@@ -7263,4 +7268,45 @@ header #mainNav {
     box-shadow: -5px 0 6px rgba(0, 0, 0, 0.4); } }
 
 footer {
-  background-color: #444540; }
+  background-color: #444540;
+  font-family: "Rokkitt", Times, serif;
+  font-weight: 400; }
+  footer div .red-link {
+    color: #f94143;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500; }
+  footer div .red-link:hover {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: underline; }
+  footer div .copyright-text p {
+    color: #d3d3d5;
+    font-size: 12px;
+    font-weight: 300; }
+    footer div .copyright-text p a {
+      cursor: pointer;
+      color: #d3d3d5; }
+    footer div .copyright-text p a:hover {
+      cursor: pointer;
+      color: #f94143;
+      text-decoration: none; }
+  footer div h5 {
+    color: #d3d3d5;
+    font-weight: 600;
+    font-size: 26px; }
+  footer div address {
+    color: #d3d3d5;
+    font-size: 18px;
+    font-weight: 400; }
+  footer div p {
+    color: #d3d3d5;
+    font-size: 20px;
+    font-weight: 400; }
+  footer div a i {
+    cursor: pointer;
+    color: #d3d3d5; }
+  footer div a:hover i {
+    cursor: pointer;
+    color: #f94143;
+    text-decoration: none; }

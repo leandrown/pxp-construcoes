@@ -27,10 +27,20 @@ header {
             text-decoration: none;
          }
       }
+
       a {
-          i {
-              color: $color_border;
-          }
+         i {
+            cursor: pointer;
+            color: $color_border;
+         }
+      }
+
+      a:hover {
+         icon {
+            cursor: pointer;
+            color: $secondary_light;
+            text-decoration: none;
+         }
       }
    }
 }
@@ -45,13 +55,15 @@ header {
    header {
       #mainNav {
          .social-media-menu {
-             border-top: 1px solid $color_border;
+            border-top: 1px solid $color_border;
          }
+
          li {
             border-bottom: 1px solid $color_border;
          }
+
          li:last-child {
-             border-bottom: none;
+            border-bottom: none;
          }
 
          .navbar-collapse {
@@ -88,7 +100,6 @@ header {
          }
       }
    }
-
 }
 
 @media (max-width: 576px) {

@@ -1,6 +1,73 @@
 /// <reference path="_variables.scss" />
 footer {
-    background-color: $primary;
+   background-color: $primary;
+   font-family: $font-rokkit;
+   font-weight: 400;
+
+   div {
+      .red-link {
+         color: $secondary_light;
+         cursor: pointer;
+         font-size: 22px;
+         font-weight: 500;
+      }
+
+      .red-link:hover {
+         color: #fff;
+         cursor: pointer;
+         text-decoration: underline;
+      }
+
+      .copyright-text {
+          p {
+              color: $color_border;
+              font-size: 12px;
+              font-weight: 300;
+              a {
+                  cursor: pointer;
+                  color: $color_border;
+              }
+              a:hover {
+                  cursor: pointer;
+                  color: $secondary_light;
+                  text-decoration: none;
+              }
+          }
+      }
+
+      h5 {
+         color: $color_border;
+         font-weight: 600;
+         font-size: 26px;
+      }
+
+      address {
+         color: $color_border;
+         font-size: 18px;
+         font-weight: 400;
+      }
+
+      p {
+         color: $color_border;
+         font-size: 20px;
+         font-weight: 400;
+      }
+
+      a {
+         i {
+            cursor: pointer;
+            color: $color_border;
+         }
+      }
+
+      a:hover {
+         i {
+            cursor: pointer;
+            color: $secondary_light;
+            text-decoration: none;
+         }
+      }
+   }
 }
 
 // FOOTER RESPONSIVE STYLES
