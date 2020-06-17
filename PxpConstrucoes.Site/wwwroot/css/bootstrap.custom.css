@@ -7206,6 +7206,8 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility; }
+  html main, body main {
+    margin-top: 6em; }
 
 header #mainNav {
   background-color: #444540;

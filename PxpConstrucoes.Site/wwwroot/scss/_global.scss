@@ -4,6 +4,9 @@ html, body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    main {
+        margin-top: 6em;
+    }
 }
 
 // GLOBAL RESPONSIVE STYLES
