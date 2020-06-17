@@ -7208,7 +7208,7 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility; }
   html main, body main {
-    margin-top: 6em; }
+    margin-top: 5em; }
 
 header #mainNav {
   background-color: #444540;
@@ -7313,11 +7313,13 @@ footer {
     text-decoration: none; }
 
 main #banner {
-  background-image: url("../img/architecture-3121009_1920.jpg");
+  height: 45vh;
+  height: 22rem;
+  background-image: url("../img/architecture-3121009_1920@2x.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-size: contain; }
+  background-size: cover; }
   main #banner h1, main #banner p {
     color: #fff;
     font-family: "Rokkitt", Times, serif;
