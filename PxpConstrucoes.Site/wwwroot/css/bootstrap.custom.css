@@ -7209,6 +7209,17 @@ html, body {
   text-rendering: optimizeLegibility; }
   html main, body main {
     margin-top: 5em; }
+    html main h2, body main h2 {
+      color: #707070;
+      font-family: "Rokkitt", Times, serif;
+      font-weight: 700;
+      font-size: 30px; }
+    html main p.description-intro, body main p.description-intro {
+      color: #444540;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 16px; }
 
 header #mainNav {
   background-color: #444540;
@@ -7312,7 +7323,7 @@ footer {
     color: #f94143;
     text-decoration: none; }
 
-main #banner {
+main #banner-home {
   height: 45vh;
   height: 22rem;
   background-image: url("../img/architecture-3121009_1920@2x.jpg");
@@ -7320,13 +7331,25 @@ main #banner {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover; }
-  main #banner h1, main #banner p {
+  main #banner-home h1, main #banner-home p {
     color: #fff;
     font-family: "Rokkitt", Times, serif;
     text-shadow: 4px 6px 6px rgba(0, 0, 0, 0.8); }
-  main #banner h1 {
+  main #banner-home h1 {
     font-size: 32px;
     font-weight: 700; }
-  main #banner p {
+  main #banner-home p {
     font-size: 16px;
     font-weight: 600; }
+
+main h2.subtitles-home {
+  color: #c91612; }
+
+main .description-intro-red {
+  color: #872a2a;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 14px; }
+
+main .divider {
+  border-top: 1px solid #707070; }

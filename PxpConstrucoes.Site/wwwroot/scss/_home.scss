@@ -1,6 +1,6 @@
 /// <reference path="_variables.scss" />
 main {
-   #banner {
+   #banner-home {
       height: 45vh;
       height: 22rem;
       background-image: url('../img/architecture-3121009_1920@2x.jpg');
@@ -24,6 +24,21 @@ main {
          font-size: 16px;
          font-weight: 600;
       }
+   }
+
+   h2.subtitles-home {
+      color: $secondary;
+   }
+
+   .description-intro-red {
+      color: $secondary_dark;
+      font-family: $font-open-sans;
+      font-style: italic;
+      font-size: 14px;
+   }
+
+   .divider {
+      border-top: 1px solid $primary_light;
    }
 }
 

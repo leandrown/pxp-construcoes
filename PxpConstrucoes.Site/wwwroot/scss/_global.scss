@@ -1,3 +1,4 @@
+/// <reference path="_variables.scss" />
 html, body {
    margin: 0;
    overflow-x: hidden;
@@ -8,6 +9,19 @@ html, body {
 
    main {
       margin-top: 5em;
+      h2 {
+          color: $primary_light;
+          font-family: $font-rokkit;
+          font-weight: 700;
+          font-size: 30px;
+      }
+      p.description-intro {
+          color: $primary;
+          font-family: $font-open-sans;
+          font-weight: 400;
+          font-style: italic;
+          font-size: 16px;
+      }
    }
 }
 
