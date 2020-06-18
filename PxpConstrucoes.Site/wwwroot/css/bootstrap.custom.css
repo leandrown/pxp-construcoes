@@ -7226,6 +7226,7 @@ header #mainNav {
   font-family: "Rokkitt", Times, serif;
   font-size: 20px;
   font-weight: 700;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   transition: all 0.4s; }
   header #mainNav .navbar-brand img {
     width: 130px; }
@@ -7385,3 +7386,11 @@ main .desc-cards a.info-link:hover {
 main .divider {
   border-top: 2px solid #707070;
   width: 9em; }
+
+main #about-us {
+  background-color: #444540;
+  border: 1px solid #707070; }
+  main #about-us img {
+    width: 270px;
+    height: 120px;
+    border: none; }

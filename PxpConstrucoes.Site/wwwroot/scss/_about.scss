@@ -1,3 +1,17 @@
+/// <reference path="_variables.scss" />
+main {
+  #about-us {
+    background-color: $primary;
+    border: 1px solid $primary_light;
+
+    img {
+        width: 270px;
+        height: 120px;
+        border: none;
+    }
+  }
+}
+
 // ABOUT US RESPONSIVE STYLES
 @media (max-width: 1200px) {
 }
