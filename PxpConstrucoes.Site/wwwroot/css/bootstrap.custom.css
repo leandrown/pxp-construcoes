@@ -7232,13 +7232,16 @@ header #mainNav {
   header #mainNav button {
     border: 0; }
   header #mainNav li .nav-link {
-    color: #d3d3d5; }
+    color: #d3d3d5;
+    transition: all 0.4s; }
   header #mainNav li .nav-link:hover {
     color: #c91612;
     text-decoration: none; }
-  header #mainNav a i {
-    cursor: pointer;
-    color: #d3d3d5; }
+  header #mainNav a {
+    transition: all 0.4s; }
+    header #mainNav a i {
+      cursor: pointer;
+      color: #d3d3d5; }
   header #mainNav a:hover icon {
     cursor: pointer;
     color: #f94143;
@@ -7351,5 +7354,34 @@ main .description-intro-red {
   font-style: italic;
   font-size: 14px; }
 
+main .desc-cards i {
+  color: #c91612;
+  font-size: 4rem; }
+
+main .desc-cards p {
+  color: rgba(64, 64, 65, 0.93);
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px; }
+
+main .desc-cards a.info-link {
+  cursor: pointer;
+  color: #c91612;
+  font-family: "Rokkitt", Times, serif;
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 0.6s; }
+  main .desc-cards a.info-link i {
+    font-size: 1.1rem; }
+
+main .desc-cards a.info-link:hover {
+  cursor: pointer;
+  color: #872a2a;
+  text-decoration: underline; }
+  main .desc-cards a.info-link:hover i {
+    color: #872a2a; }
+
 main .divider {
-  border-top: 1px solid #707070; }
+  border-top: 2px solid #707070;
+  width: 9em; }

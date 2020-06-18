@@ -1,48 +1,51 @@
 /// <reference path="_variables.scss" />
 header {
-   #mainNav {
-      background-color: $primary;
-      font-family: $font-rokkit;
-      font-size: 20px;
-      font-weight: 700;
+  #mainNav {
+    background-color: $primary;
+    font-family: $font-rokkit;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all 0.4s;
+
+    .navbar-brand {
+      img {
+        width: 130px;
+      }
+    }
+
+    button {
+      border: 0;
+    }
+
+    li {
+      .nav-link {
+        color: $color_border;
+        transition: all 0.4s;
+      }
+
+      .nav-link:hover {
+        color: $secondary;
+        text-decoration: none;
+      }
+    }
+
+    a {
       transition: all 0.4s;
 
-      .navbar-brand {
-         img {
-            width: 130px;
-         }
+      i {
+        cursor: pointer;
+        color: $color_border;
       }
+    }
 
-      button {
-         border: 0;
+    a:hover {
+      icon {
+        cursor: pointer;
+        color: $secondary_light;
+        text-decoration: none;
       }
-
-      li {
-         .nav-link {
-            color: $color_border;
-         }
-
-         .nav-link:hover {
-            color: $secondary;
-            text-decoration: none;
-         }
-      }
-
-      a {
-         i {
-            cursor: pointer;
-            color: $color_border;
-         }
-      }
-
-      a:hover {
-         icon {
-            cursor: pointer;
-            color: $secondary_light;
-            text-decoration: none;
-         }
-      }
-   }
+    }
+  }
 }
 // HEADER RESPONSIVE STYLES
 @media (max-width: 1200px) {

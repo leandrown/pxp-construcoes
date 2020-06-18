@@ -1,45 +1,84 @@
 /// <reference path="_variables.scss" />
 main {
-   #banner-home {
-      height: 45vh;
-      height: 22rem;
-      background-image: url('../img/architecture-3121009_1920@2x.jpg');
-      background-position: center;
-      background-repeat: no-repeat;
-      background-attachment: scroll;
-      background-size: cover;
+  #banner-home {
+    height: 45vh;
+    height: 22rem;
+    background-image: url('../img/architecture-3121009_1920@2x.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
 
-      h1, p {
-         color: #fff;
-         font-family: $font-rokkit;
-         text-shadow: 4px 6px 6px rgba(0, 0, 0, 0.8);
-      }
+    h1, p {
+      color: #fff;
+      font-family: $font-rokkit;
+      text-shadow: 4px 6px 6px rgba(0, 0, 0, 0.8);
+    }
 
-      h1 {
-         font-size: 32px;
-         font-weight: 700;
-      }
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+    }
 
-      p {
-         font-size: 16px;
-         font-weight: 600;
-      }
-   }
+    p {
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
 
-   h2.subtitles-home {
+  h2.subtitles-home {
+    color: $secondary;
+  }
+
+  .description-intro-red {
+    color: $secondary_dark;
+    font-family: $font-open-sans;
+    font-style: italic;
+    font-size: 14px;
+  }
+
+  .desc-cards {
+    i {
       color: $secondary;
-   }
+      font-size: 4rem;
+    }
 
-   .description-intro-red {
-      color: $secondary_dark;
+    p {
+      color: rgba($primary_dark, 0.93);
       font-family: $font-open-sans;
-      font-style: italic;
-      font-size: 14px;
-   }
+      font-weight: 400;
+      font-size: 20px;
+    }
 
-   .divider {
-      border-top: 1px solid $primary_light;
-   }
+    a.info-link {
+      cursor: pointer;
+      color: $secondary;
+      font-family: $font-rokkit;
+      font-weight: 400;
+      font-size: 24px;
+      text-decoration: none;
+      transition: all 0.6s;
+
+      i {
+        font-size: 1.1rem;
+      }
+    }
+
+    a.info-link:hover {
+      cursor: pointer;
+      color: $secondary_dark;
+      text-decoration: underline;
+
+      i {
+        color: $secondary_dark;
+      }
+    }
+  }
+
+  .divider {
+    border-top: 2px solid $primary_light;
+    width: 9em;
+  }
 }
 
 // HOME RESPONSIVE STYLES

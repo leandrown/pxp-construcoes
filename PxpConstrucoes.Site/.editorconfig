@@ -1,17 +1,26 @@
+# This file is the top-most EditorConfig file
 # To learn more about .editorconfig see https://aka.ms/editorconfigdocs
 root = true
 
 # All files
 [*]
 indent_style = space
+end_of_line = crlf
 
 # Xml files
 [*.xml]
 indent_size = 2
 
-# This file is the top-most EditorConfig file
+# HTML and front-end files
+[*.{htm,html,css,scss,sass}]
+charset = utf-8
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
 
-[*.{asp,aspx,cshtml,js,ts,html,css,scss}]
+# C# source code and Razor files
+[*.{asp,aspx,cshtml,razor,js,ts}]
 charset = utf-8
 indent_style = space
 indent_size = 3
