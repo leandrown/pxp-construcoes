@@ -7220,6 +7220,12 @@ html, body {
       font-weight: 400;
       font-style: italic;
       font-size: 16px; }
+    html main p.default-text, body main p.default-text {
+      color: #404041;
+      font-family: "Open Sans", Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 18px; }
 
 header #mainNav {
   background-color: #444540;
@@ -7385,7 +7391,7 @@ main .desc-cards a.info-link:hover {
 
 main .divider {
   border-top: 2px solid #707070;
-  width: 9em; }
+  width: 140px; }
 
 main #about-us {
   background-color: #444540;
@@ -7394,3 +7400,47 @@ main #about-us {
     width: 270px;
     height: 120px;
     border: none; }
+
+main #profiles img {
+  width: 102px;
+  height: 102px;
+  background-color: #fff;
+  border: 1px solid #707070;
+  border-radius: 50px; }
+
+main #profiles h6 {
+  color: rgba(23, 23, 23, 0.93);
+  font-family: "Rokkitt", Times, serif;
+  font-weight: 700;
+  font-size: 22px; }
+
+main #profiles p, main #profiles a {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px; }
+
+main #profiles p {
+  color: #404041;
+  font-style: italic; }
+
+main #profiles a {
+  cursor: pointer;
+  color: #c91612;
+  font-style: normal;
+  text-decoration: none;
+  transition: all 0.6s; }
+
+main #profiles a:hover {
+  cursor: pointer;
+  color: #872a2a;
+  text-decoration: underline; }
+
+main .divider-thin {
+  border-top: 1px solid #d3d3d5;
+  width: 290px; }
+
+main address {
+  color: #444540;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px; }

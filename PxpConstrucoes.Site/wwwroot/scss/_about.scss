@@ -5,10 +5,64 @@ main {
     border: 1px solid $primary_light;
 
     img {
-        width: 270px;
-        height: 120px;
-        border: none;
+      width: 270px;
+      height: 120px;
+      border: none;
     }
+  }
+
+  #profiles {
+    img {
+      width: 102px;
+      height: 102px;
+      background-color: #fff;
+      border: 1px solid $primary_light;
+      border-radius: 50px;
+    }
+
+    h6 {
+      color: $color_owner_name;
+      font-family: $font-rokkit;
+      font-weight: 700;
+      font-size: 22px;
+    }
+
+    p, a {
+      font-family: $font-open-sans;
+      font-weight: 400;
+      font-size: 16px;
+    }
+
+    p {
+      color: $primary_dark;
+      font-style: italic;
+    }
+
+    a {
+      cursor: pointer;
+      color: $secondary;
+      font-style: normal;
+      text-decoration: none;
+      transition: all 0.6s;
+    }
+
+    a:hover {
+        cursor: pointer;
+        color: $secondary_dark;
+        text-decoration: underline;
+    }
+  }
+
+  .divider-thin {
+    border-top: 1px solid $color_border;
+    width: 290px;
+  }
+
+  address {
+    color: $primary;
+    font-family: $font-open-sans;
+    font-weight: 400;
+    font-size: 16px;
   }
 }
 
