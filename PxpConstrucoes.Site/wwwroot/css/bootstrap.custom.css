@@ -7444,3 +7444,8 @@ main address {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 16px; }
+
+#services section img {
+  width: 100%;
+  background-color: #fff;
+  border: none; }
