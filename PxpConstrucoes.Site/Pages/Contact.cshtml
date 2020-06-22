@@ -15,51 +15,53 @@
 <div class="row" id="contact-form">
    <div class="col-12 px-0">
       <img src="~/img/paper-3225109_1920@2x.jpg" alt="Entre em contato" />
-      <form class="form" method="post">
+      <form class="form py-4" method="post">
          <div asp-validation-summary="All"></div>
          <div class="row">
             <div class="col-12">
-               <div class="form-group">
-                  <input asp-for="Contact.Subject" value="" placeholder="Sobre que assunto deseja falar?" />
+               <div class="form-group px-3">
+                  <input asp-for="Contact.Subject" class="px-2" placeholder="Sobre que assunto deseja falar?" />
                   <span asp-validation-for="Contact.Subject"></span>
                </div>
             </div>
          </div>
          <div class="row">
             <div class="col-12">
-               <div class="form-group">
-                  <input asp-for="Contact.Name" value="" placeholder="Seu nome completo" />
+               <div class="form-group px-3">
+                  <input asp-for="Contact.Name" class="px-2" placeholder="Seu nome completo" />
                   <span asp-validation-for="Contact.Name"></span>
                </div>
             </div>
          </div>
          <div class="row">
             <div class="col-12">
-               <div class="form-group">
-                  <input asp-for="Contact.Email" value="" placeholder="Seu melhor e-mail" />
+               <div class="form-group px-3">
+                  <input asp-for="Contact.Email" class="px-2" placeholder="Seu melhor e-mail" />
                   <span asp-validation-for="Contact.Email"></span>
                </div>
             </div>
          </div>
          <div class="row">
             <div class="col-12">
-               <div class="form-group">
-                  <input asp-for="Contact.Phone" value="" placeholder="Seu número de telefone ou celular" />
+               <div class="form-group px-3">
+                  <input asp-for="Contact.Phone" class="px-2" placeholder="Seu número de telefone ou celular" />
                   <span asp-validation-for="Contact.Phone"></span>
                </div>
             </div>
          </div>
          <div class="row">
             <div class="col-12">
-               <div class="form-group">
-                  <textarea asp-for="Contact.Message" cols="40" rows="6" placeholder="Sua mensagem"></textarea>
+               <div class="form-group px-3">
+                  <textarea asp-for="Contact.Message" class="px-2" cols="40" rows="6" placeholder="Sua mensagem"></textarea>
                   <span asp-validation-for="Contact.Message"></span>
                </div>
             </div>
          </div>
          <div class="row">
-            <div class="col-12">
-               <button type="submit">Enviar mensagem</button>
+            <div class="col-12 text-right">
+               <div class="form-group px-3">
+                  <button type="submit">Enviar mensagem</button>
+               </div>
             </div>
          </div>
       </form>
