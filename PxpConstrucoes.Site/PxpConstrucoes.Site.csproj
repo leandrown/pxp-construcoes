@@ -4,6 +4,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Copyright>2020 Mandrillus Team</Copyright>
     <Description>Site Oficial da PXP Construções</Description>
+    <RepositoryUrl>https://github.com/leandrown/pxp-construcoes</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
