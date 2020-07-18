@@ -1,7 +1,7 @@
 @page
 @model PxpConstrucoes.Site.Pages.GalleryModel
 @{
-    ViewData["Title"] = "Galeria";
+   ViewData["Title"] = "Galeria";
 }
 
 <div class="row">
@@ -14,48 +14,50 @@
 </div>
 
 <div class="row">
-   <div class="col-md-4 px-0">
-      <ul class="nav nav-pills flex-column" id="gallery-tabs" role="tablist">
-         <li class="nav-item mt-1">
-            <a class="nav-link active mb-1" id="construct-tab" data-toggle="tab" role="tab" href="#constructions" aria-controls="constructions" aria-selected="true">Construções</a>
-         </li>
-         <li class="nav-item mt-1">
-            <a class="nav-link mb-1" id="maintenance-tab" data-toggle="tab" role="tab" href="#maintenance" aria-controls="maintenance" aria-selected="false">Manutenção</a>
-         </li>
-         <li class="nav-item mt-1">
-            <a class="nav-link mb-1" id="sustainability-tab" data-toggle="tab" role="tab" href="#sustainability" aria-controls="sustainability" aria-selected="false">Sustentabilidade</a>
-         </li>
-      </ul>
-   </div>
-   <div class="col-md-8 px-0">
-      <div class="tab-content" id="gallery-content">
-         <div class="tab-pane fade show active" id="constructions" role="tabpanel" aria-labelledby="construct-tab">
-            <div class="card-deck my-2">
-               <div class="card border-0">
-                  <img class="card-img rounded-0" src="~/img/gallery/NoPath - Copy (3).jpg" alt="Imagem 1" />
-               </div>
-               <div class="card border-0">
-                  <img class="card-img rounded-0" src="~/img/gallery/NoPath - Copy (4).jpg" alt="Imagem 2" />
-               </div>
-               <div class="card border-0">
-                  <img class="card-img rounded-0" src="~/img/gallery/NoPath - Copy (5).jpg" alt="Imagem 3" />
-               </div>
-            </div>
-         </div>
-         <div class="tab-pane fade" id="maintenance" role="tabpanel" aria-labelledby="maintenance-tab">
-            <div class="card-deck">
-               <div class="card border-0">
-                  <img class="card-img rounded-0" src="~/img/gallery/NoPath - Copy (3).jpg" alt="Imagem 1" />
-               </div>
-               <div class="card border-0">
-                  <img class="card-img rounded-0" src="~/img/gallery/NoPath - Copy (4).jpg" alt="Imagem 2" />
-               </div>
-               <div class="card border-0">
-                  <img class="card-img rounded-0" src="~/img/gallery/NoPath - Copy (5).jpg" alt="Imagem 3" />
+   <div class="col-12 col-lg-10 mx-lg-auto d-lg-flex px-0">
+      <div class="col-12 col-lg-3 px-0">
+         <ul class="nav nav-pills flex-column mt-lg-5" id="gallery-tabs" role="tablist">
+            <li class="nav-item mt-1">
+               <a class="nav-link rounded-0 mb-1 active" id="construct-tab" data-toggle="tab" role="tab" href="#constructions" aria-controls="constructions" aria-selected="true">Construções</a>
+            </li>
+            <li class="nav-item mt-1">
+               <a class="nav-link rounded-0 mb-1" id="maintenance-tab" data-toggle="tab" role="tab" href="#maintenance" aria-controls="maintenance" aria-selected="false">Manutenção</a>
+            </li>
+            <li class="nav-item mt-1">
+               <a class="nav-link rounded-0 mb-1" id="sustainability-tab" data-toggle="tab" role="tab" href="#sustainability" aria-controls="sustainability" aria-selected="false">Sustentabilidade</a>
+            </li>
+         </ul>
+      </div>
+      <div class="col-12 col-lg-9 px-0">
+         <div class="tab-content" id="gallery-content">
+            <div class="tab-pane fade show active" id="constructions" role="tabpanel" aria-labelledby="construct-tab">
+               <div class="card-deck my-2 my-lg-1 ml-lg-2">
+                  <div class="card border-0">
+                     <img class="card-img rounded-0" src="~/img/gallery/NoPath - Copy (3).jpg" alt="Imagem 1" />
+                  </div>
+                  <div class="card border-0">
+                     <img class="card-img rounded-0" src="~/img/gallery/NoPath - Copy (4).jpg" alt="Imagem 2" />
+                  </div>
+                  <div class="card border-0">
+                     <img class="card-img rounded-0" src="~/img/gallery/NoPath - Copy (5).jpg" alt="Imagem 3" />
+                  </div>
                </div>
             </div>
+            <div class="tab-pane fade" id="maintenance" role="tabpanel" aria-labelledby="maintenance-tab">
+               <div class="card-deck my-2 my-lg-1 ml-lg-2">
+                  <div class="card border-0">
+                     <img class="card-img rounded-0" src="~/img/gallery/NoPath - Copy (3).jpg" alt="Imagem 1" />
+                  </div>
+                  <div class="card border-0">
+                     <img class="card-img rounded-0" src="~/img/gallery/NoPath - Copy (4).jpg" alt="Imagem 2" />
+                  </div>
+                  <div class="card border-0">
+                     <img class="card-img rounded-0" src="~/img/gallery/NoPath - Copy (5).jpg" alt="Imagem 3" />
+                  </div>
+               </div>
+            </div>
+            <div class="tab-pane fade" id="sustainability" role="tabpanel" aria-labelledby="sustainability-tab"></div>
          </div>
-         <div class="tab-pane fade" id="sustainability" role="tabpanel" aria-labelledby="sustainability-tab"></div>
       </div>
    </div>
 </div>

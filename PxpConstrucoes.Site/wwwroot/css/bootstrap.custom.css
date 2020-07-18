@@ -7458,7 +7458,7 @@ main address {
   border: none; }
 
 #gallery-tabs li.nav-item {
-  border-bottom: 1px solid #707070; }
+  border-bottom: 1px solid #d3d3d5; }
   #gallery-tabs li.nav-item a.nav-link {
     background-color: #fff;
     color: #404041;
@@ -7478,6 +7478,9 @@ main address {
     color: inherit;
     content: '\f078';
     float: right; }
+
+#gallery-content {
+  border-left: 1px solid #d3d3d5; }
 
 @media (min-width: 576px) {
   #gallery-tabs li.nav-item a.nav-link:after {

@@ -1,7 +1,7 @@
 /// <reference path="_variables.scss" />
 #gallery-tabs {
   li.nav-item {
-    border-bottom: 1px solid $primary_light;
+    border-bottom: 1px solid $color_border;
 
     a.nav-link {
       background-color: #fff;
@@ -30,6 +30,10 @@
   }
 }
 
+#gallery-content {
+    border-left: 1px solid $color_border;
+}
+
 
 // GALLERY RESPONSIVE STYLES
 @media (min-width: 1200px) {
@@ -39,6 +43,7 @@
 }
 
 @media (min-width: 768px) {
+
 }
 
 @media (min-width: 576px) {
