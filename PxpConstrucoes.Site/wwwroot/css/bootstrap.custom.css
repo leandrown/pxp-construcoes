@@ -7483,6 +7483,9 @@ main address {
   #gallery-tabs li.nav-item a.nav-link:after {
     display: none; } }
 
+#contact-form form {
+  border-right: 1px solid #d3d3d5; }
+
 #contact-form div input[type="text"] {
   width: 100%;
   height: 32px; }
@@ -7521,8 +7524,7 @@ main address {
   font-size: 16px; }
 
 #contact-form div textarea {
-  width: 100%;
-  height: 140px; }
+  width: 100%; }
 
 #contact-form div button {
   color: #d3d3d5;
@@ -7539,6 +7541,8 @@ main address {
   border: 1px solid #f94143; }
 
 #contact-map iframe {
-  width: 100%;
-  height: 360px;
   border: none; }
+
+@media (max-width: 768px) {
+  #contact-form form {
+    border-right: none; } }
