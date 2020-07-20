@@ -5,7 +5,7 @@ main {
     border: 1px solid $primary_light;
 
     img {
-      width: 270px;
+      width: 280px;
       height: 120px;
       border: none;
     }
@@ -15,9 +15,9 @@ main {
     img {
       width: 102px;
       height: 102px;
-      background-color: #fff;
-      border: 1px solid $primary_light;
-      border-radius: 50px;
+      // background-color: #fff;
+      // border: 1px solid $primary_light;
+      // border-radius: 50px;
     }
 
     h6 {
@@ -51,6 +51,10 @@ main {
         color: $secondary_dark;
         text-decoration: underline;
     }
+  }
+
+  #content-panel {
+      border-left: 1px solid $color_border;
   }
 
   .divider-thin {

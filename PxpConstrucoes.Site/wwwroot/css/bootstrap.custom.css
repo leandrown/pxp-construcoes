@@ -7404,16 +7404,13 @@ main #about-us {
   background-color: #444540;
   border: 1px solid #707070; }
   main #about-us img {
-    width: 270px;
+    width: 280px;
     height: 120px;
     border: none; }
 
 main #profiles img {
   width: 102px;
-  height: 102px;
-  background-color: #fff;
-  border: 1px solid #707070;
-  border-radius: 50px; }
+  height: 102px; }
 
 main #profiles h6 {
   color: rgba(23, 23, 23, 0.93);
@@ -7441,6 +7438,9 @@ main #profiles a:hover {
   cursor: pointer;
   color: #872a2a;
   text-decoration: underline; }
+
+main #content-panel {
+  border-left: 1px solid #d3d3d5; }
 
 main .divider-thin {
   border-top: 1px solid #d3d3d5;

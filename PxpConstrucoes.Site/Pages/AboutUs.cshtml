@@ -1,62 +1,70 @@
 @page
 @model PxpConstrucoes.Site.Pages.AboutUsModel
 @{
-   ViewData["Title"] = "Sobre a PXP Construções";
+   ViewData["Title"] = "Sobre a PXP Obras";
 }
 
 <div class="row">
    <div class="col-12 col-lg-10 text-center text-lg-left py-5 px-lg-3 mx-lg-auto">
-      <h2 class="px-lg-4">Sobre a PXP Construções</h2>
+      <h2 class="px-lg-4">Sobre a PXP Obras</h2>
       <p class="description-intro px-lg-4">
          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
       </p>
    </div>
 </div>
-<div class="row" id="about-us">
-   <div class="col-12 col-lg-4 text-center mb-2 py-4">
-      <img class="my-4" src="~/img/pxp_logo.png" alt="PXP Construções" />
-   </div>
-</div> <!-- TODO - Adjust desktop layout and test mobile menu -->
-<hr class="divider-thin d-lg-none my-5" />
-<address class="px-3 py-2">
-   Rua Marquês de Itu, 306 - 3º andar - cj. 33<br>
-   São Paulo - SP<br>
-   CEP: 07140-000
-</address>
-<hr class="divider-thin d-lg-none my-5" />
 <div class="row">
-   <div class="col-12 col-lg-8">
-      <section>
-         <h2 class="subtitles-home">História</h2>
-         <p class="default-text">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-         </p>
-         <p class="default-text mb-4">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-         </p>
-         <h2 class="subtitles-home">Missão</h2>
-         <p class="default-text mb-4">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-         </p>
-         <h2 class="subtitles-home">Objetivos</h2>
-         <p class="default-text mb-1">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-         </p>
-      </section>
-   </div>
-</div>
-<hr class="divider-thin my-5" />
-<div class="row" id="profiles">
-   <div class="col-12 text-center pb-5">
-      <img src="~/img/geovani.jpg" alt="Geovani Marano" />
-      <h6 class="my-2 pt-2">Geovani Marano</h6>
-      <p class="my-0">Sócio e fundador<br>Especialista em engenharia</p>
-      <a href="mailto:geovani@pxpconstrucoes.com.br" target="_blank">geovani@pxpconstrucoes.com.br</a>
-   </div>
-   <div class="col-12 text-center pb-5">
-      <img src="~/img/leandro.jpg" alt="Leandro Vieira" />
-      <h6 class="my-2 pt-2">Leandro Vieira</h6>
-      <p class="my-0">Gerente de projetos<br>Especialista em arq. &amp; design</p>
-      <a href="mailto:leandro@pxpconstrucoes.com.br" target="_blank">leandro@pxpconstrucoes.com.br</a>
+   <div class="col-12 col-lg-10 mx-lg-auto mb-lg-4">
+      <div class="row">
+         <div class="col-12 col-lg-3 mb-2 py-4 py-lg-2">
+            <div id="about-us" class="text-center">
+               <img class="img-fluid w-50 my-4" src="~/img/pxp_logo_final.png" alt="PXP Obras" />
+            </div>
+            <hr class="divider-thin d-lg-none my-5" />
+            <address class="text-center text-lg-left px-3 px-lg-0 py-2">
+               Rua Marquês de Itu, 306 - 3º andar - cj. 33<br>
+               São Paulo - SP<br>
+               CEP: 07140-000
+            </address>
+            <hr class="divider-thin d-none d-lg-inline w-100 my-5" />
+            <div class="col-12" id="profiles">
+               <hr class="divider-thin my-5 mx-lg-0" />
+               <div class="col-12 text-center text-lg-left d-lg-flex pb-5">
+                  <img src="~/img/geovani.jpg" alt="Geovani Marano" class="img-fluid rounded-circle border border-secondary" />
+                  <div class="ml-lg-2">
+                     <h6 class="my-2 pt-2">Geovani Marano</h6>
+                     <p class="my-0">Sócio e fundador<br>Especialista em engenharia</p>
+                     <a href="mailto:geovani@pxpobras.com.br" target="_blank">geovani@pxpobras.com.br</a>
+                  </div>
+               </div>
+               <div class="col-12 text-center text-lg-left d-lg-flex pb-5">
+                  <img src="~/img/leandro.jpg" alt="Leandro Vieira" class="img-fluid rounded-circle border border-secondary" />
+                  <div class="ml-lg-2">
+                     <h6 class="my-2 pt-2">Leandro Vieira</h6>
+                     <p class="my-0">Gerente de projetos<br>Especialista em arq. &amp; design</p>
+                     <a href="mailto:leandro@pxpobras.com.br" target="_blank">leandro@pxpobras.com.br</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div id="content-panel" class="col-12 col-lg-9">
+            <section class="text-justify">
+               <h2 class="subtitles-home">História</h2>
+               <p class="default-text">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+               </p>
+               <p class="default-text mb-4">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+               </p>
+               <h2 class="subtitles-home">Missão</h2>
+               <p class="default-text mb-4">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+               </p>
+               <h2 class="subtitles-home">Objetivos</h2>
+               <p class="default-text mb-1">
+                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+               </p>
+            </section>
+         </div>
+      </div>
    </div>
 </div>
