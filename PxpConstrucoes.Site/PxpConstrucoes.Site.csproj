@@ -34,7 +34,6 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\img\gallery\" />
-    <Folder Include="wwwroot\img\clients\" />
     <Folder Include="wwwroot\img\services\" />
     <Folder Include="wwwroot\svg\" />
   </ItemGroup>
