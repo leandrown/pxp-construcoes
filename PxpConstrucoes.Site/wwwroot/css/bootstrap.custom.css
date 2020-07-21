@@ -7452,6 +7452,10 @@ main address {
   font-weight: 400;
   font-size: 16px; }
 
+@media (max-width: 768px) {
+  #content-panel {
+    border-left: none; } }
+
 #services section img {
   width: 100%;
   background-color: #fff;
