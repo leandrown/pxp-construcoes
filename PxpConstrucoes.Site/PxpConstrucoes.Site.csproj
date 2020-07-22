@@ -33,7 +33,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\img\gallery\" />
+    <Folder Include="wwwroot\img\gallery\constructions\" />
+    <Folder Include="wwwroot\img\gallery\maintenance\" />
     <Folder Include="wwwroot\img\services\" />
     <Folder Include="wwwroot\svg\" />
   </ItemGroup>
