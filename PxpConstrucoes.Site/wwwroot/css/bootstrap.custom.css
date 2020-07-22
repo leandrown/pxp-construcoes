@@ -7400,6 +7400,14 @@ main .divider {
   border-top: 2px solid #707070;
   width: 140px; }
 
+main .clients-carousel i.fas {
+  color: #c91612;
+  font-size: 2rem; }
+
+main .clients-carousel i.fas:hover {
+  color: #872a2a;
+  text-decoration: none; }
+
 main #about-us {
   background-color: #444540;
   border: 1px solid #707070; }

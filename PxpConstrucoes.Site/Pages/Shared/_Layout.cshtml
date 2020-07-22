@@ -7,14 +7,21 @@
    <meta name="robots" content="index, follow, noarchive">
 
    <title>@ViewData["Title"] - PXP Obras</title>
+
+   <!-- Slick Carousel styles -->
+   <link type="text/css" rel="stylesheet" href="~/css/slick.min.css" />
+   <link type="text/css" rel="stylesheet" href="~/css/slick-theme.min.css" />
+
    <!-- Web Fonts -->
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Rokkitt:wght@300;400;500;600;700&display=swap" />
+
    <environment include="Development">
       <link rel="stylesheet" href="~/css/bootstrap.custom.css" />
    </environment>
    <environment exclude="Development">
       <link rel="stylesheet" href="~/css/bootstrap.custom.min.css" />
    </environment>
+
    <!-- Font Awesome -->
    <script src="https://kit.fontawesome.com/af40653a1b.js" crossorigin="anonymous"></script>
 </head>
@@ -104,13 +111,20 @@
    <environment include="Development">
       <script src="~/lib/jquery/dist/jquery.js"></script>
       <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
-      <script src="~/js/site.js" asp-append-version="true"></script>
+      <script src="~/js/site-core.js" asp-append-version="true"></script>
    </environment>
    <environment exclude="Development">
       <script src="~/lib/jquery/dist/jquery.min.js"></script>
       <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-      <script src="~/js/site.min.js" asp-append-version="true"></script>
+      <script src="~/js/site-core.min.js" asp-append-version="true"></script>
    </environment>
+
+   <!-- Slick Carousel scripts -->
+   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+   <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+   <script type="text/javascript" src="~/js/slick.min.js"></script>
+   <!-- Slick Controls -->
+   <script type="text/javascript" src="~/js/site-core.js"></script>
 
    @RenderSection("Scripts", required: false)
 </body>

@@ -79,6 +79,18 @@ main {
     border-top: 2px solid $primary_light;
     width: 140px;
   }
+
+  .clients-carousel {
+    i.fas {
+      color: $secondary;
+      font-size: 2rem;
+    }
+
+    i.fas:hover {
+      color: $secondary_dark;
+      text-decoration: none;
+    }
+  }
 }
 
 // HOME RESPONSIVE STYLES

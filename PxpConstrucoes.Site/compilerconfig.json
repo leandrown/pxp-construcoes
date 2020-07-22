@@ -2,5 +2,13 @@
   {
     "outputFile": "wwwroot/css/bootstrap.custom.css",
     "inputFile": "wwwroot/scss/bootstrap.custom.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/slick.css",
+    "inputFile": "wwwroot/scss/slick.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/slick-theme.css",
+    "inputFile": "wwwroot/scss/slick-theme.scss"
   }
 ]

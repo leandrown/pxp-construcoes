@@ -4,13 +4,13 @@
 @import "../lib/bootstrap/scss/bootstrap";
 
 // Import custom variables (overrides Bootstrap default variables)
-@import "variables";
-@import "global";
-@import "header";
-@import "footer";
-@import "home";
-@import "about";
-@import "services";
-@import "clients";
-@import "gallery";
-@import "contact";
+@import "core/variables";
+@import "core/global";
+@import "core/header";
+@import "core/footer";
+@import "core/home";
+@import "core/about";
+@import "core/services";
+@import "core/clients";
+@import "core/gallery";
+@import "core/contact";
